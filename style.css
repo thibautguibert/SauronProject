@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    padding: 5px 3px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color: #535254;
+    color: lightgray;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+li {
+    display: inline;
+    font-size: 12px;
+}
+
+#home {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.carousel {
+    width: 100%;
+    Height: 250px;
+    background-color: lightgray;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 30px 5px;
+}
+
+#titre1 {
+    text-align: center;
+}
+
+#bracket {
+    font-size: 12px;
+}
+
+#wanted {
+    padding-left: 2%;
+}
+
+article {
+    display: inline-block;
+    background-color: lightgray;
+    height: 200px;
+    width: 32%;
+    
+}
+
+form {
+    border-top: solid 2px;
+    margin-top: 50px;
+}
+
+input {
+    width: 60% ;
+    display: block;
+    margin: 15px 200px;
+}
+
+textarea {
+    width: 60%;
+    margin: 10px 200px;
+}
